@@ -165,19 +165,27 @@
         'name': 'keyword.operator.arithmetic.r'
       }
       {
-        'match': '(=|<-|<<-|->|->>)'
+        'match': '=='
+        'name': 'keyword.operator.comparison.r'
+      }
+      {
+        'match': '(:=|<-|<<-|->|->>)'
         'name': 'keyword.operator.assignment.r'
       }
       {
-        'match': '(==|!=|<>|<|>|<=|>=)'
+        'match': '(!=|<>|<|>|<=|>=|%in%)'
         'name': 'keyword.operator.comparison.r'
+      }
+      {
+        'match': '='
+        'name': 'keyword.operator.assignment.r'
       }
       {
         'match': '(!|&{1,2}|[|]{1,2})'
         'name': 'keyword.operator.logical.r'
       }
       {
-        'match': '(%in%|:=|%between%|%chin%|%like%|%\\+%|%\\+replace%|%:%|%do%|%dopar%|%>%|%<>%|%T>%|%\\$%)'
+        'match': '(%between%|%chin%|%like%|%\\+%|%\\+replace%|%:%|%do%|%dopar%|%>%|%<>%|%T>%|%\\$%)'
         'name': 'keyword.operator.other.r'
       }
       {
