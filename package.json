@@ -1,0 +1,31 @@
+{
+  "name": "atom-language-r",
+  "version": "1.0.0",
+  "description": "Adds syntax highlighting and snippets to R files in Atom",
+  "author": {
+    "name": "Mathias Schilling",
+    "email": "m@matchilling.com",
+    "url": "https://www.matchilling.com"
+  },
+  "homepage": "https://github.com/matchilling/atom-language-r",
+  "keywords": [
+    "Atom",
+    "Atom Language",
+    "Grammar",
+    "R"
+  ],
+  "licenses": [{
+    "type": "GPL-3.0",
+    "url": "https://github.com/matchilling/atom-language-r/blob/master/LICENSE"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matchilling/atom-language-r.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matchilling/atom-language-r/issues"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
