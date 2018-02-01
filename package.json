@@ -1,11 +1,26 @@
 {
   "name": "language-r",
+  "main": "./lib/main",
   "version": "0.4.2",
   "author": "Lee Dohm <lee@lee-dohm.com>",
   "description": "A language description and snippets for R",
   "keywords": [
     "grammar",
     "r"
+  ],
+  "contributors": [
+    {
+      "name": "Lee Dohm",
+      "email": ""
+    },
+    {
+      "name": "Kyle Barron",
+      "email": "barronk@mit.edu"
+    },
+    {
+      "name": "Jacob Fiksel",
+      "email": "jfiksel@gmail.com"
+    }
   ],
   "repository": "https://github.com/lee-dohm/language-r",
   "license": "MIT",
