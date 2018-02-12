@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright &copy; 2014-2017 [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com), [REditorSupport](https://github.com/REditorSupport)
+Copyright &copy; 2014-2017 [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com), 
+2018 [REditorSupport](https://github.com/REditorSupport)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
