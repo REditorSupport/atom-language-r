@@ -1,8 +1,5 @@
 '.source.r':
   'editor':
-    'autoIndentOnPaste': true
-    'softTabs': true
-    'tabLength': 2
     'commentStart': '# '
     'foldEndPattern': '(^\\s*\\)|^\\s*\\})'
     'decreaseIndentPattern': '^\\s*\\}|^\\s*\\)'
