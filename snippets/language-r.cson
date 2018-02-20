@@ -14,7 +14,7 @@
   'Cummulative max':
     'prefix': 'cumi'
     'body': 'cummax(${1:x})'
-  'Cummulative max':
+  'Cummulative min':
     'prefix': 'cuma'
     'body': 'cummin(${1:x})'
   'Data Frame':
@@ -47,7 +47,7 @@
   'Grep':
     'prefix': 'grep'
     'body': 'grep(${1:pattern}, ${2:x}, ${3:ignore.case = ${4:FALSE}}, ${5:perl = ${6:FALSE}})'
-  'Grep':
+  'Grep no-value fixed':
     'prefix': 'grep'
     'body': 'grep(${1:pattern}, ${2:x}, ${3:ignore.case = ${4:FALSE}}, ${5:perl = ${6:FALSE}}, ${7:value = ${8:FALSE}}, ${9:fixed = ${10:TRUE}})'
   'Grep logical':
