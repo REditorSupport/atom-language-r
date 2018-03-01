@@ -35,3 +35,38 @@ folds: [
 comments:
   start: '#'
   
+scopes:
+  'module': 'source.r'
+
+  'comment': 'comment.line'
+  'string': 'string.quoted'
+  'function_definition > identifier': 'entity.name.function'
+  
+  'NULL': 'constant.language'
+  'TRUE': 'constant.language'
+  'FALSE': 'constant.language'
+  'LETTERS': 'constant.language'
+  'letters': 'constant.language'
+  'pi': 'constant.language'
+  'month.abb': 'constant.language'
+  'month.name': 'constant.language'
+  
+  '"if"': 'keyword.control'
+  '"else"': 'keyword.control'
+  '"while"': 'keyword.control'
+  '"for"': 'keyword.control'
+  '"return"': 'keyword.control'
+  '"break"': 'keyword.control'
+  '"next"': 'keyword.control'
+  
+  '"+"': 'keyword.operator'
+  '"-"': 'keyword.operator'
+  '"*"': 'keyword.operator'
+  '"/"': 'keyword.operator'
+  '"%"': 'keyword.operator'
+  '"%in%"': 'keyword.operator.in'
+  '"&"': 'keyword.operator.logical.r'
+  '"&&"': 'keyword.operator.logical.r'
+  '"|"': 'keyword.operator.logical.r'
+  '"||"': 'keyword.operator.logical.r'
+ 
