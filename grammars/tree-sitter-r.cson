@@ -63,7 +63,7 @@ scopes:
   '"-"': 'keyword.operator'
   '"*"': 'keyword.operator'
   '"/"': 'keyword.operator'
-  '"%"': 'keyword.operator'
+  '"%%"': 'keyword.operator'
   '"%in%"': 'keyword.operator.in'
   '"&"': 'keyword.operator.logical.r'
   '"&&"': 'keyword.operator.logical.r'
