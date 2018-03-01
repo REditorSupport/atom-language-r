@@ -1,0 +1,37 @@
+id: 'r'
+name: 'r'
+type: 'tree-sitter'
+parser: 'tree-sitter-r'
+legacyScopeName: 'source.r'
+
+fileTypes: [
+  'r'
+]
+
+folds: [
+  {
+    type: [
+      'if_statement'
+      'for_statement'
+      'while_statement'
+      'function_definition'
+      'extract_statement'
+    ]
+  }
+  {
+    start: {type: '(', index: 0}
+    end: {type: ')', index: -1}
+  },
+  {
+    start: {type: '{', index: 0}
+    end: {type: '}', index: -1}
+  },
+  {
+    start: {index: 0, type: '['}
+    end: {index: -1, type: ']'}
+  }
+]
+
+comments:
+  start: '#'
+  
