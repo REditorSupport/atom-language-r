@@ -1,26 +1,67 @@
-# CHANGELOG
+## Change Log
 
-## **v0.4.0** &mdash; *Released: 26 October 2015*
+### upcoming (2018/03/03 06:45 +00:00)
+- [a325fd1](https://github.com/REditorSupport/atom-language-r/commit/a325fd1e92a01d35116c0bdb943d63c699b6511b) modulo missing (@guillaumechaumet)
+- [2a05089](https://github.com/REditorSupport/atom-language-r/commit/2a050893860a19cfb4f75f8a51c94ce9f6e440da) Second step (@guillaumechaumet)
+- [#12](https://github.com/REditorSupport/atom-language-r/pull/12) First Step Tree-Sitter (#12) (@guillaumechaumet)
+- [#9](https://github.com/REditorSupport/atom-language-r/pull/9) Check that the TextEditor is valid (@Arcanemagus)
+- [#10](https://github.com/REditorSupport/atom-language-r/pull/10) Fix duplicate snippet keys (@Arcanemagus)
+- [b8ef50b](https://github.com/REditorSupport/atom-language-r/commit/b8ef50b25c8874394d06d8e842981e3efae2b43c) Fix duplicate snippet keys (@Arcanemagus)
+- [3b88da5](https://github.com/REditorSupport/atom-language-r/commit/3b88da5bc36257a9c9ae3bca5d4ba3e14a377af2) Don't fire on mini TextEditors (@Arcanemagus)
+- [2aa972c](https://github.com/REditorSupport/atom-language-r/commit/2aa972cb2c822dc3f3ee1671c9831e094b93a33e) Check that a TextEditor was returned (@Arcanemagus)
 
-* [PR #7](https://github.com/lee-dohm/language-r/pull/7) from [@tpoisot](https://github.com/tpoisot)
-    * Add support for ROxygen docstrings
+### v1.0.2 (2018/02/12 05:16 +00:00)
+- [7c238c6](https://github.com/REditorSupport/atom-language-r/commit/7c238c6bd2cff47365760c67fac01dd8a878a2e6) Prepare 1.0.2 release (@randy3k)
+- [61890eb](https://github.com/REditorSupport/atom-language-r/commit/61890ebf683032ca1174eab42ce70141e126c7cd) Prepare 1.0.1 release (@randy3k)
+- [ec594c5](https://github.com/REditorSupport/atom-language-r/commit/ec594c5de4c2295413ff78d3e84255fd7d24fda4) package name atom-language-r (@randy3k)
+- [cf1d932](https://github.com/REditorSupport/atom-language-r/commit/cf1d932f7af4afb1220eba4bf71e8b33f72bc614) Prepare 1.0.1 release (@randy3k)
+- [beddb3a](https://github.com/REditorSupport/atom-language-r/commit/beddb3a0ba18b042320749a691882dca24bfd0b1) remote note for temporary fork (@randy3k)
+- [829d00a](https://github.com/REditorSupport/atom-language-r/commit/829d00af02166ae2122c165314a66562d5f0b34c) fix merge issues (@randy3k)
+- [b14ee06](https://github.com/REditorSupport/atom-language-r/commit/b14ee06e7b9ef42fef3dbedd8b96524b34553858) # Conflicts: #	README.md #	grammars/r.cson #	package.json #	settings/language-r.cson (@randy3k)
+- [#13](https://github.com/REditorSupport/atom-language-r/pull/13) Import code from r-indent package. Seems to be working. (#13) (@kylebarron)
+- [#11](https://github.com/REditorSupport/atom-language-r/pull/11) punctuation change issue #10 (#11) (@guillaumechaumet)
+- [b99c4d3](https://github.com/REditorSupport/atom-language-r/commit/b99c4d36ea22c52d9346456433eb70117cb6dc17) Modify README (@matchilling)
 
-## **v0.3.0** &mdash; *Released: 3 October 2015*
-
-* [PR #6](https://github.com/lee-dohm/language-r/pull/6) from [@tpoisot](https://github.com/tpoisot)
-    * Add support for pipes
-    * Remove annoying variables
-
-## **v0.2.0** &mdash; *Released: 1 May 2015*
-
-* Update for Deprecation Day
-* Add installation instructions in the README
-* Add MIT license
-
-## **v0.1.1** &mdash; *Released: 8 May 2014*
-
-* Fix for #1 &mdash; Command to comment the current selection is fixed
-
-## **v0.1.0** &mdash; *Released: 20 March 2014*
-
-* Initial conversion from TextMate R package
+### 1.0.0 (2017/12/25 22:24 +00:00)
+- [6f2236e](https://github.com/REditorSupport/atom-language-r/commit/6f2236ebc189c57201754f52f91d4d1c56ab7205) Add grammar, settings and snippets (@matchilling)
+- [e001532](https://github.com/REditorSupport/atom-language-r/commit/e001532ff25ad487e2ac0bdddf06a0f92eb3f497) Project init :rocket: (@matchilling)
+- [fff8400](https://github.com/REditorSupport/atom-language-r/commit/fff8400921488d41538530c2aa338d2a5c9abdb9) order of keyword operators (@guillaumechaumet)
+- [#6](https://github.com/REditorSupport/atom-language-r/pull/6) Base port of vscode r package (@REditorSupport)
+- [f41fda7](https://github.com/REditorSupport/atom-language-r/commit/f41fda7429b5bb2430c672547397d5e05ad955ec) fix function-declarations bug (@kylebarron)
+- [1602e26](https://github.com/REditorSupport/atom-language-r/commit/1602e26891ed582226a810ef747c5b847b402757) import vscode grammar (downstream from sublime). convert to cson (@kylebarron)
+- [a0eea89](https://github.com/REditorSupport/atom-language-r/commit/a0eea89956809d6dd8eecac2e6dc2c6f34f71c25) remove deprecated note (@randy3k)
+- [30bfa39](https://github.com/REditorSupport/atom-language-r/commit/30bfa39de65c8d386c3e1c175154458acb6472f2) Prepare 0.4.2 release (@lee-dohm)
+- [#24](https://github.com/REditorSupport/atom-language-r/pull/24) Add unmaintained notice (@lee-dohm)
+- [9e184d6](https://github.com/REditorSupport/atom-language-r/commit/9e184d6fe6d5f884fd9f705c30a66339eef2cf57) Add unmaintained notice (@lee-dohm)
+- [#21](https://github.com/REditorSupport/atom-language-r/pull/21) Decrease indent at closing braces as language-c does (@heavywatal)
+- [4381768](https://github.com/REditorSupport/atom-language-r/commit/4381768e5da34c235f379a96f794f67da91b5440) Decrease indent at closing braces as language-c does (@heavywatal)
+- [6f65912](https://github.com/REditorSupport/atom-language-r/commit/6f6591263324bd514ad77be2043560fe9ef1e6ad) Taking down unmaintained warnings now with three volunteer maintainers (@lee-dohm)
+- [#14](https://github.com/REditorSupport/atom-language-r/pull/14) Update language-r.cson (@guillaumechaumet)
+- [79603c0](https://github.com/REditorSupport/atom-language-r/commit/79603c0c1d8d21374cd963acda2f6951c4a5e592) Update language-r.cson (@guillaumechaumet)
+- [#12](https://github.com/REditorSupport/atom-language-r/pull/12) Update language-r.cson (@guillaumechaumet)
+- [b0e9d55](https://github.com/REditorSupport/atom-language-r/commit/b0e9d553d5b3a3f9689d40bf080c15818237304a) Update language-r.cson (@guillaumechaumet)
+- [66ddce5](https://github.com/REditorSupport/atom-language-r/commit/66ddce55b523991c5bf6719d9abd42746d009d35) Prepare 0.4.1 release (@lee-dohm)
+- [426c1b2](https://github.com/REditorSupport/atom-language-r/commit/426c1b21402b87f6806a31a9347a4be178bbac71) Add unmaintained notices (@lee-dohm)
+- [5ba574a](https://github.com/REditorSupport/atom-language-r/commit/5ba574a8a5938c0ea92bef2583d14789bb5d7bf6) Prepare 0.4.0 release (@lee-dohm)
+- [2ff22b5](https://github.com/REditorSupport/atom-language-r/commit/2ff22b51c495070ed8d9ab4002d61de6f6a48a57) Update CHANGELOG for release (@lee-dohm)
+- [#7](https://github.com/REditorSupport/atom-language-r/pull/7) roxygen docstring tags (@tpoisot)
+- [ca2dc18](https://github.com/REditorSupport/atom-language-r/commit/ca2dc18b6b72d220b18bfe17a7594a9e463a01af) Added roxygen docstring tags
+- [#1](https://github.com/REditorSupport/atom-language-r/pull/1) Get 0.3.0 back from @lee-dohm (@lee-dohm)
+- [9598f27](https://github.com/REditorSupport/atom-language-r/commit/9598f27b133d6326426e79e1728c08d5a9429eb0) Prepare 0.3.0 release (@lee-dohm)
+- [03576ee](https://github.com/REditorSupport/atom-language-r/commit/03576ee220ab5b9feb12e4701c9ee1806fbf7ecc) :memo: Update CHANGELOG for release (@lee-dohm)
+- [#6](https://github.com/REditorSupport/atom-language-r/pull/6) Improvements (@tpoisot)
+- [8cc4338](https://github.com/REditorSupport/atom-language-r/commit/8cc4338f66572d5235d2660158c5187fd468cd20) Removed commented-out part
+- [455bad4](https://github.com/REditorSupport/atom-language-r/commit/455bad4cf1fb73bde373d079d9858840b110c520) change name back
+- [6829682](https://github.com/REditorSupport/atom-language-r/commit/682968220d74f35c25ef18437860665d1357f33c) No more annoying variables
+- [5644b8b](https://github.com/REditorSupport/atom-language-r/commit/5644b8b4eaffed09098dc2c0ea223bfd72384a8d) support for pipes
+- [3508c5f](https://github.com/REditorSupport/atom-language-r/commit/3508c5fb77fbae8a3a4690017eeb786a879f0614) Prepare 0.2.0 release (@lee-dohm)
+- [cf376c4](https://github.com/REditorSupport/atom-language-r/commit/cf376c4c2860bb0a629099b2407870a9c2fe5a52) Update for Deprecation Day (@lee-dohm)
+- [2e00d86](https://github.com/REditorSupport/atom-language-r/commit/2e00d86de7c3e4a28ea41b2a4facb36d0430b839) Move import notice to the top (@lee-dohm)
+- [666ecee](https://github.com/REditorSupport/atom-language-r/commit/666eceebf7a50ca0a08bbe8479b6a1a6284a84b6) Flesh out README and add LICENSE (@lee-dohm)
+- [e1d7c39](https://github.com/REditorSupport/atom-language-r/commit/e1d7c39ff800ddaa2b3ea19d7600e9b296590617) Prepare 0.1.1 release (@lee-dohm)
+- [54b373e](https://github.com/REditorSupport/atom-language-r/commit/54b373eb68dc4f59e18c392b87215b1719e2da77) :memo: Make fix comment more understandable (@lee-dohm)
+- [c646e26](https://github.com/REditorSupport/atom-language-r/commit/c646e26690fdd76ddb1facc84082773b5886c0dd) :lipstick: Clean up some annoying things (@lee-dohm)
+- [4264577](https://github.com/REditorSupport/atom-language-r/commit/4264577184c4ea039fb5de9be593f130b20d64a8) Add comment begin definition (@lee-dohm)
+- [ecfd24e](https://github.com/REditorSupport/atom-language-r/commit/ecfd24eca678865a52ace461f36284d7e0e895ab) Prepare 0.1.0 release (@lee-dohm)
+- [24b25ab](https://github.com/REditorSupport/atom-language-r/commit/24b25ab46c8265bf60c767c35ad3a0b6338f6009) Update README and package description (@lee-dohm)
+- [985f04c](https://github.com/REditorSupport/atom-language-r/commit/985f04c7189b4691e15c2f2d268738796ee95567) Initial conversion from TextMate bundle (@lee-dohm)
