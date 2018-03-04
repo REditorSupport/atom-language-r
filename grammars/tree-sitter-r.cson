@@ -3,10 +3,12 @@ name: 'r'
 type: 'tree-sitter'
 parser: 'tree-sitter-r'
 legacyScopeName: 'source.r'
+scopeName: 'source.r'
 
 fileTypes: [
   'r'
 ]
+
 
 folds: [
   {
@@ -34,14 +36,14 @@ folds: [
 
 comments:
   start: '#'
-  
+
 scopes:
   'module': 'source.r'
 
   'comment': 'comment.line'
   'string': 'string.quoted'
   'function_definition > identifier': 'entity.name.function'
-  
+
   'NULL': 'constant.language'
   'TRUE': 'constant.language'
   'FALSE': 'constant.language'
@@ -50,7 +52,7 @@ scopes:
   'pi': 'constant.language'
   'month.abb': 'constant.language'
   'month.name': 'constant.language'
-  
+
   '"if"': 'keyword.control'
   '"else"': 'keyword.control'
   '"while"': 'keyword.control'
@@ -58,7 +60,7 @@ scopes:
   '"return"': 'keyword.control'
   '"break"': 'keyword.control'
   '"next"': 'keyword.control'
-  
+
   '"+"': 'keyword.operator'
   '"-"': 'keyword.operator'
   '"*"': 'keyword.operator'
@@ -69,4 +71,3 @@ scopes:
   '"&&"': 'keyword.operator.logical.r'
   '"|"': 'keyword.operator.logical.r'
   '"||"': 'keyword.operator.logical.r'
- 
