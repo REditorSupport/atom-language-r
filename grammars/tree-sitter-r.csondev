@@ -3,7 +3,7 @@ name: 'r'
 type: 'tree-sitter'
 parser: 'tree-sitter-r'
 legacyScopeName: 'source.r'
-scopeName: 'source.r'
+#scopeName: 'source.r'
 
 fileTypes: [
   'r'
@@ -50,8 +50,8 @@ scopes:
   'LETTERS': 'constant.language'
   'letters': 'constant.language'
   'pi': 'constant.language'
-  'month.abb': 'constant.language'
-  'month.name': 'constant.language'
+  # 'month.abb': 'constant.language'
+  # 'month.name': 'constant.language'
 
   '"if"': 'keyword.control'
   '"else"': 'keyword.control'

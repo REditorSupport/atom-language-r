@@ -190,6 +190,8 @@
         'match': '(\\-|\\+|\\*|\\/|%\\/%|%%|%\\*%|%o%|%x%|\\^)'
         'name': 'keyword.operator.arithmetic.r'
       }
+        'match': '<=|>='
+        'name': 'keyword.operator.comparison.r'
       {
         'match': '=='
         'name': 'keyword.operator.comparison.r'
@@ -199,7 +201,7 @@
         'name': 'keyword.operator.assignment.r'
       }
       {
-        'match': '(!=|<>|<|>|<=|>=|%in%)'
+        'match': '(!=|<>|<|>|%in%)'
         'name': 'keyword.operator.comparison.r'
       }
       {
