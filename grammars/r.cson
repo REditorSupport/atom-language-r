@@ -125,15 +125,15 @@
   'general-variables': {
     'patterns': [
       {
-        'match': '\\b([\\d_][\\w.]+)\\b'
+        'match': '(?:\\b|(?=\\.))([\\d_][\\w.]+)\\b'
         'name': 'invalid.illegal.variable.other.r'
       }
       {
-        'match': '\\b(?:[a-zA-Z._][a-zA-Z0-9._]*|`[^`]+`)(?=::)'
+        'match': '(?:\\b|(?=\\.))(?:[a-zA-Z._][a-zA-Z0-9._]*|`[^`]+`)(?=::)'
         'name': 'entity.namespace.r'
       }
       {
-        'match': '\\b(?:[a-zA-Z._][a-zA-Z0-9._]*|`[^`]+`)\\b'
+        'match': '(?:\\b|(?=\\.))(?:[a-zA-Z._][a-zA-Z0-9._]*|`[^`]+`)\\b'
         'name': 'variable.other.r'
       }
     ]
