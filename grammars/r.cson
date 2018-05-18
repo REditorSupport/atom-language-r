@@ -46,9 +46,6 @@
   {
     'include': '#general-variables'
   }
-  {
-    'include': '#punctuations'
-  }
 ]
 'repository': {
   'comments': {
@@ -138,14 +135,6 @@
       {
         'match': '(?:[a-zA-Z._][a-zA-Z0-9._]*|`[^`]+`)'
         'name': 'variable.other.r'
-      }
-    ]
-  }
-  'punctuations': {
-    'patterns': [
-      {
-        'match': ';'
-        'name': 'punctuation.terminator.semicolon.r'
       }
     ]
   }
@@ -260,10 +249,6 @@
           {
             'include': '$self'
           }
-          {
-            'match': ','
-            'name': 'punctuation.separator.delimiter.comma.r'
-          }
         ]
       }
       {
@@ -278,10 +263,6 @@
         'patterns': [
           {
             'include': '$self'
-          }
-          {
-            'match': ','
-            'name': 'punctuation.separator.delimiter.comma.r'
           }
         ]
       }
@@ -298,10 +279,6 @@
         'patterns': [
           {
             'include': '$self'
-          }
-          {
-            'match': ','
-            'name': 'punctuation.separator.delimiter.comma.r'
           }
         ]
       }
@@ -378,7 +355,7 @@
           }
           {
             'match': ','
-            'name': 'punctuation.separator.parameters.comma.r'
+            'name': 'punctuation.separator.parameters.r'
           }
         ]
       }
@@ -424,7 +401,7 @@
       }
       {
         'match': ','
-        'name': 'punctuation.separator.parameters.r'
+        'name': 'punctuation.separator.parameters.comma.r'
       }
       {
         'end': '\\)'
