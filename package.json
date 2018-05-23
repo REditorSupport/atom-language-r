@@ -1,7 +1,7 @@
 {
   "name": "atom-language-r",
   "main": "./lib/main",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "author": "REditorSupport",
   "description": "A language description and snippets for R",
   "keywords": [
