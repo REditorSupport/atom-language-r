@@ -12,10 +12,10 @@
     'prefix': 'cat'
     'body': 'cat(${1:file}, ${2:sep = ${3:""}}, ${4:fill = ${5:FALSE}}, ${6:labels = ${7:NULL}}, ${8:append = ${9:FALSE}})'
   'Cummulative max':
-    'prefix': 'cumi'
+    'prefix': 'cuma'
     'body': 'cummax(${1:x})'
   'Cummulative min':
-    'prefix': 'cuma'
+    'prefix': 'cumi'
     'body': 'cummin(${1:x})'
   'Data Frame':
     'prefix': 'daf'
